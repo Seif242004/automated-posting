@@ -1,0 +1,50 @@
+{
+    "success": true,
+    "results": [
+        {
+            "platform": "Telegram",
+            "status": "success",
+            "posted_url": "https://t.me/demo_channel/1003",
+            "public_access": true,
+            "date": "2026-11-16",
+            "time": "13:42:43",
+            "error": null
+        },
+        {
+            "platform": "Discord",
+            "status": "success",
+            "posted_url": "https://discord.com/channels/999/555/1002",
+            "public_access": false,
+            "date": "2026-11-16",
+            "time": "13:42:43",
+            "error": null
+        },
+        {
+            "platform": "Mastodon",
+            "status": "failed",
+            "posted_url": null,
+            "public_access": false,
+            "date": null,
+            "time": null,
+            "error": "Authentication failed (Mastodon, HTTP 401): {\"detail\":\"The access token is invalid\"}"
+        },
+        {
+            "platform": "Bluesky",
+            "status": "success",
+            "posted_url": "https://bsky.app/profile/demo.bsky.social/post/1004",
+            "public_access": true,
+            "date": "2026-11-16",
+            "time": "13:42:43",
+            "error": null
+        },
+        {
+            "platform": "Dev.to",
+            "status": "success",
+            "posted_url": "http://localhost:5000/devto/demo/1001",
+            "public_access": true,
+            "date": "2026-11-16",
+            "time": "13:42:43",
+            "error": null
+        }
+    ]
+}

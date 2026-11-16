@@ -1,0 +1,11 @@
+INFO:     Started server process [37832]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56618 - "POST /api/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56619 - "POST /api/v1/statuses HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56620 - "POST /xrpc/com.atproto.server.createSession HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56621 - "POST /discord/webhook?wait=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56617 - "POST /botdemo-token/sendMessage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56618 - "GET /devto/demo/1001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56619 - "POST /xrpc/com.atproto.repo.createRecord HTTP/1.1" 200 OK
